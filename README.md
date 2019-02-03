@@ -3,11 +3,15 @@
 ## Task Description
 Build a backend service that handles a (very simple) recruiting process. The process requires two types of objects: job offers and applications from candidates.
 
-### Prerequisites
-* Java 1.8 or above
-* Spring Boot
-* Database H2 (In-Memory)
-* Maven
+## Built With
+
+* [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - The language used
+* [Spring Boot 2.1.2](http://spring.io/projects/spring-boot) - The web framework used
+* [Database H2 (In-Memory)](http://www.h2database.com/html/main.html) - The in-memory database
+* [Lombok](https://projectlombok.org/) - Lombok is used to reduce boilerplate code for model/data objects,
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Swagger](https://swagger.io/) - API Documentation
+
 
 ## Running
 Run the project by execute the command:
@@ -19,15 +23,6 @@ While running the project you can access the following url in order to test it m
 ```
 http://localhost:9999/
 ```
-
-## Built With
-
-* [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - The language used
-* [Spring Boot 2.1.2](http://spring.io/projects/spring-boot) - The web framework used
-* [Lombok](https://projectlombok.org/) - Lombok is used to reduce boilerplate code for model/data objects,
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [Swagger](https://swagger.io/) - API Documentation
-
 
 ### Backend consists following restful apis
     a. v1/api/offers
