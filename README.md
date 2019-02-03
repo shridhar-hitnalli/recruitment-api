@@ -34,7 +34,7 @@ http://localhost:9999/
     b. v1/api/applications
 
 
-Swagger specs :
+### Swagger specs :
 
 Swagger usually helps in the smart way of having technical documentation of the API. Please refer to the Swagger specs at http://localhost:9999/swagger-ui.html. URL .
 At this URL you will know the structure of the request and the JSON response structure as well. You will also be able to hit the request from the swagger and get the json response back on the UI and play with it.
