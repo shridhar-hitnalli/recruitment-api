@@ -15,7 +15,7 @@ Run the project by execute the command:
 $ mvn spring-boot:run
 ```
 
-While running the project you can access the following url (using GET method) in order to test it manually:
+While running the project you can access the following url in order to test it manually:
 ```
 http://localhost:9999/
 ```
@@ -49,5 +49,5 @@ http://localhost:9999/swagger-ui.html
 ```
 
 ### Improvements:
-Security can be added
-Test cases can be added for controller integration tests
+1. Security can be added
+2. Test cases can be added for controller integration tests
